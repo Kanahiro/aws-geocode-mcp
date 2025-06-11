@@ -1,7 +1,6 @@
-# Amazon Location Service Geocoder MCP
+# MCP Server for Amazon Location Service Geocoder
 
-https://github.com/user-attachments/assets/d9aad071-b44c-47d4-8264-6a2cd4692ab6
-
+<https://github.com/user-attachments/assets/d9aad071-b44c-47d4-8264-6a2cd4692ab6>
 
 ## Getting Started
 
