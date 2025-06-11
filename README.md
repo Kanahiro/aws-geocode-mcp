@@ -1,6 +1,7 @@
 # Amazon Location Service Geocoder MCP
 
-<div><video controls src="https://github.com/Kanahiro/aws-geocode-mcp/raw/refs/heads/main/doc/demo.mp4" muted="false"></video></div>
+https://github.com/user-attachments/assets/d9aad071-b44c-47d4-8264-6a2cd4692ab6
+
 
 ## Getting Started
 
