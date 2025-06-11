@@ -1,6 +1,6 @@
 # Amazon Location Service Geocoder MCP
 
-![](./doc//demo.mov)
+<div><video controls src="./doc/demo.mov" muted="false"></video></div>
 
 ## Getting Started
 
