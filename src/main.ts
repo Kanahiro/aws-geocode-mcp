@@ -4,12 +4,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 
-import {
-	geocode,
-	searchNearBy,
-	FOOD_TYPES,
-	CATEGORIES,
-} from './amazonlocation';
+import { geocode, searchNearBy, FOODTYPES, CATEGORIES } from './amazonlocation';
 
 import packagejson from '../package.json';
 
@@ -81,7 +76,7 @@ server.tool(
 			.max(50000)
 			.describe('Search radius in meters (1-50000)'),
 		categories: z.array(z.enum(CATEGORIES)).optional(),
-		foodtypes: z.array(z.enum(FOOD_TYPES)).optional(),
+		foodtypes: z.array(z.enum(FOODTYPES)).optional(),
 		language: z
 			.string()
 			.optional()

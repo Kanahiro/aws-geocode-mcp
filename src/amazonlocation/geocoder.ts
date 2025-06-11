@@ -1,6 +1,4 @@
-import { z } from 'zod';
-import { CATEGORIES } from './categories';
-import { FOOD_TYPES } from './foodtypes';
+import { CATEGORIES, FOODTYPES } from './filter';
 
 const apikey = process.env.AMAZON_LOCATION_API_KEY ?? '';
 const region = process.env.AWS_REGION ?? 'ap-northeast-1';
@@ -62,7 +60,7 @@ async function searchNearBy(
 	longitude: number,
 	radius: number,
 	categories: (typeof CATEGORIES)[number][] = [],
-	foodtypes: (typeof FOOD_TYPES)[number][] = [],
+	foodtypes: (typeof FOODTYPES)[number][] = [],
 	language: string = 'ja',
 ) {
 	try {
