@@ -44,11 +44,7 @@ server.tool(
 				type: 'text',
 				text: JSON.stringify(
 					{
-						address: result.Address?.Street || '',
-						municipality: result.Address?.Municipality || '',
-						region: result.Address?.Region || '',
-						country: result.Address?.Country || '',
-						postalCode: result.Address?.PostalCode || '',
+						address: result.Address ?? '',
 						coordinates: result.Position,
 						title: result.Title,
 						placeId: result.PlaceId,
@@ -109,11 +105,7 @@ server.tool(
 				type: 'text',
 				text: JSON.stringify(
 					{
-						address: result.Address?.Street || '',
-						municipality: result.Address?.Municipality || '',
-						region: result.Address?.Region || '',
-						country: result.Address?.Country || '',
-						postalCode: result.Address?.PostalCode || '',
+						address: result.Address ?? '',
 						coordinates: result.Position,
 						title: result.Title,
 						placeId: result.PlaceId,
